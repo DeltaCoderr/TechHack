@@ -8,6 +8,7 @@ import About from "./components/About/About";
 import Prize from "./components/Prize/Prize";
 import Themes from "./components/Themes/Themes";
 import Footer from "./components/Footer/Footer";
+import Workflow from "./components/Workflow/Workflow";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Prize />
       <Themes />
+      <Workflow />
       <WhatsappButton />
       <Team />
       <Footer />

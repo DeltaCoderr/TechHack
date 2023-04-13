@@ -5,7 +5,6 @@ import './navbar.css';
 import React from 'react';
 
 
-
 const Navbar = () => {
   const [showNavbar, setShowNavbar] = useState(false)
 
@@ -14,7 +13,7 @@ const Navbar = () => {
   }
 
   return (
-    <nav className="navbar">
+    <nav className="navbar" style={{ position: 'fixed', top: 0, width: '100%' }}>
       <div className="container">
         <div className="logo">
        <Logo />
